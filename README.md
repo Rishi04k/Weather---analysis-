@@ -5,9 +5,9 @@ This project involves cleaning and analyzing a weather dataset to extract meanin
 
 ##  Data Cleaning Steps
 
-Converted the Date/Time column to proper datetime format.
+- Converted the Date/Time column to proper datetime format.
 
-Renamed columns for better readability:
+- Renamed columns for better readability:
 
 Press_kPa → Pressure_kPa
 
@@ -17,37 +17,37 @@ Rel Hum_% → Humidity_%
 
 Weather → Weather Condition
 
-Checked for and summarized null values.
+- Checked for and summarized null values.
 
-Verified data types and structure.
+- Verified data types and structure.
 
 ##  Analysis Performed
 
-Instances when weather is clear – Filtered all records where the weather condition is exactly "Clear".
+- Instances when weather is clear – Filtered all records where the weather condition is exactly "Clear".
 
-Wind speed exactly 4 km/h – Extracted records with Wind Speed_km/h equal to 4.
+- Wind speed exactly 4 km/h – Extracted records with Wind Speed_km/h equal to 4.
 
-Null value check – Verified the dataset for missing values in each column.
+- Null value check – Verified the dataset for missing values in each column.
 
-Renamed columns – Applied meaningful column names for clarity.
+- Renamed columns – Applied meaningful column names for clarity.
 
-All instances of Snow – Retrieved all records where Weather Condition contains "Snow".
+- All instances of Snow – Retrieved all records where Weather Condition contains "Snow".
 
-High wind and low visibility – Found instances where wind speed > 24 km/h and visibility = 25 km.
+- High wind and low visibility – Found instances where wind speed > 24 km/h and visibility = 25 km.
 
-Mean statistics by weather – Calculated the mean value of each numeric column for every unique Weather Condition.
+- Mean statistics by weather – Calculated the mean value of each numeric column for every unique Weather Condition.
 
-Clear weather with high visibility – Selected records where weather is "Clear" and visibility > 40 km.
+- Clear weather with high visibility – Selected records where weather is "Clear" and visibility > 40 km.
 
-Clear weather with high humidity and visibility – Filtered records where weather is "Clear", humidity > 50%, and visibility > 40 km.
+- Clear weather with high humidity and visibility – Filtered records where weather is "Clear", humidity > 50%, and visibility > 40 km.
 
 ##  Technologies Used
 
-Python – Core programming language.
+- Python – Core programming language.
 
-Pandas – For data cleaning and analysis.
+- Pandas – For data cleaning and analysis.
 
-NumPy – For numerical computations.
+- NumPy – For numerical computations.
 
 ##  Results
 
