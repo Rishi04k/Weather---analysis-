@@ -3,7 +3,7 @@ Overview
 
 This project involves cleaning and analyzing a weather dataset to extract meaningful patterns and insights. The analysis covers various weather conditions, wind speeds, visibility, and humidity patterns.
 
-Data Cleaning Steps
+#### Data Cleaning Steps
 
 Converted the Date/Time column to proper datetime format.
 
@@ -21,7 +21,7 @@ Checked for and summarized null values.
 
 Verified data types and structure.
 
-Analysis Performed
+### Analysis Performed
 
 Instances when weather is clear – Filtered all records where the weather condition is exactly "Clear".
 
@@ -41,7 +41,7 @@ Clear weather with high visibility – Selected records where weather is "Clear"
 
 Clear weather with high humidity and visibility – Filtered records where weather is "Clear", humidity > 50%, and visibility > 40 km.
 
-Technologies Used
+### Technologies Used
 
 Python – Core programming language.
 
@@ -49,6 +49,6 @@ Pandas – For data cleaning and analysis.
 
 NumPy – For numerical computations.
 
-Results
+#### Results
 
 This analysis provides insights into patterns of clear and snowy weather, relationships between wind speed and visibility, and statistical summaries by weather condition.
